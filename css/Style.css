@@ -1,0 +1,197 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+a{
+    color: #000000 ;
+    text-decoration: none ;
+}
+a:hover{
+    text-decoration: none ;
+    color: black;
+}
+
+header div :hover {
+    --animate-duration: 2s;
+    transform:scale(1.01);
+    transition: all 1s ease;
+    text-size-adjust: 10%;
+    text-decoration: underline;
+    color: black;
+}
+
+
+
+body{
+    font-size: 16px; /* 1rem = 10px */
+    
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+.cabecera{
+    text-align: right;
+    padding: 1rem;
+    
+    
+}
+@media (min-width:600px)  { 
+      width: 90%;
+    }
+
+.texto1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.texto2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.boton1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background-color: #2085FE ;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+      
+}
+
+.boton2{
+   
+    box-sizing:content-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: whitesmoke ;
+    color: grey;
+    border-style: none;
+    border-color: whitesmoke;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: content-box;
+    height: 38px;
+}
+
+
+.fot{
+    font-size: small;
+    background-color: whitesmoke ;
+    width: 100%;
+    bottom: 1px;
+    position: absolute;
+}
+
+
+.animate__animated.animate__fadeIn{
+    --animate-duration: 4s;
+    
+}
+
+main .animate__animated.animate__fadeIn{
+    animation-delay: -3s;
+}
+
+header.animate__animated.animate__fadeIn{
+    animation-delay: 0.8s;
+
+}
+.image{
+    display: block;
+    margin: auto;
+    height:20rem;
+    width: 50rem;
+}
+
+
+
+.image:hover{
+     cursor: pointer;
+    }
+    
+
+
+.boton1:hover{
+    transition:
+        background ease 1s;  
+       
+    background-color: #86BAF8 ;
+    color: #2085FE ;
+    cursor: pointer;
+    transform:scale(1.02);
+    transition: all 1s ease;
+}
+
+.boton2:hover{
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 0.001rem;
+ 
+   
+}
+
+
+
+input[type=text] {
+    border-radius: 25px;
+    width: 50rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    
+    background-size: 1.5rem;
+    background-position: 1.5rem;
+    background-repeat: no-repeat;
+    padding: 7px 10px 10px 40px;
+    box-shadow: black;
+    
+}
+input[type=text]:hover{
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+  }
+  input[type=text]:focus {
+    box-shadow: 0 0 5pt 2pt #D3D3D3;
+    outline-width: 0px;
+  }
+
+
+
+
+
+.animate__animated.animate__rubberBand{
+    --animate-duration: 4s;
+    animation-iteration-count:infinite;
+    --animate-repeat: 2;
+    animation-delay: 2s;
+    
+}
+
+/* 
+#Goog:hover{
+    filter:blur(5px);
+    opacity: 0.07;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    -ms-transition: opacity 500ms;
+    transition: opacity 500ms;
+}
+
+#goog2:hover{
+
+    visibility: visible;
+}
+
+*/
